@@ -231,8 +231,9 @@ section h3.section-subheading {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
-    font-weight: 400;
-    margin-bottom: 75px
+    font-weight: 900;
+    margin-bottom: 75px;
+    color: #000;
 }
 @media (min-width:768px) {
     section {
@@ -493,12 +494,14 @@ aside.clients img {
 }
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/contact-image.png);
     background-position: center;
     background-repeat: no-repeat
+    width: 1469px;
+    height: 720px;
 }
 section#contact .section-heading {
-    color: #fff
+    color: #000;
 }
 section#contact .form-group {
     margin-bottom: 25px
