@@ -18,7 +18,7 @@ $message = $_POST['message'];
 // Create the email and send the message
 $to = 'contactoeventsite@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
-$email_body = "Contacto desde la web.\n\n"."Detalles:\n\Nombre: $name\n\nEmail: $email_address\n\nTel: $phone\n\nMensaje:\n$message";
+$email_body = "Contacto desde la web.\n\n"."Detalles:\nNombre: $name\n\nEmail: $email_address\n\nTel: $phone\n\nMensaje:\n$message";
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
