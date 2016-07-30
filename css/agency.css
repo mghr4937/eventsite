@@ -224,7 +224,7 @@ section {
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: 60px
 }
 section h3.section-subheading {
     font-size: 16px;
@@ -237,7 +237,7 @@ section h3.section-subheading {
 }
 @media (min-width:768px) {
     section {
-        padding: 150px 0
+        padding: 50px 0
     }
 }
 .service-heading {
@@ -499,6 +499,7 @@ section#contact {
     background-repeat: no-repeat
     width: 1469px;
     height: 720px;
+    padding-top: 150px
 }
 section#contact .section-heading {
     color: #000;
